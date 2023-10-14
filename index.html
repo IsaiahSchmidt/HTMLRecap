@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Recap</title>
+</head>
+
+<body>
+    <nav style="text-align: right; border: none;">
+        <a href="#youtube">Youtube Channel</a>
+        <a href="#instagram">Instagram Profile</a>
+    </nav>
+    <header style="background-color: lightgray; text-align: center; padding: 0.05em; text-decoration: underline;">
+        <h1>Pike's Peak Hike</h1>
+    </header>
+    <div>
+        <h2>Group hike this weekend</h2>
+        <p>Free group hike for anyone who is interested in summitting a Pike's Peak.
+            We will meet at the trailhead and set out as a group. Parking is limited, so get there early! Hike at your
+            own pace; this is a 23 mile round-trip hike.
+            Bring plenty of food and water, and dress warm! This is a very challenging hike, so make sure you are
+            well-rested and don't be afraid to stop and head down if you have to.
+        </p>
+        <p>When: 10/15/23 @ 5:30 AM</p>
+        <p>Where: Barr Trailhead, Manitou Springs, CO</p>
+        <p>To learn more about this hike, visit <a
+                href="https://www.alltrails.com/trail/us/colorado/pikes-peak-via-barr-trail--2">AllTrails.com</a></p>
+    </div>
+    <hr>
+    <div style="text-align: center; background-color: lightgray; padding: 0.5em;">
+        <h3>Check out this video of the hike!</h3>
+        <iframe src="https://www.youtube.com/embed/watch?v=-1o1UJj6wsc" frameborder="0" width="560" height="315"
+            allowfullscreen></iframe>
+        <p style="text-decoration: underline;">Video credits to Rob Hoff on Youtube</p>
+    </div>
+    <hr>
+    <div style="text-align: left; padding: 0.25em;">
+        <h2>Sign Up!!!!</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p>
+                    <label>Name: <input type="name" name="name"></label>
+                </p>
+                <p>
+                    <label>Phone Number: <input type="number" name="tel"></label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" name="email"></label>
+                </p>
+                <p>
+                    <label>Emergency Contact Name: <input type="name" name="ecname"></label>
+                </p>
+                <p>
+                    <label>Emergency Contact Phone Number: <input type="number" name="ectel"></label>
+                </p>
+                <p>
+                    <input type="checkbox" name="dog" id="dog">
+                    <label for="dog">I am bringing my dog </label>
+                </p>
+                <p>
+                    <input type="checkbox" name="first" id="first">
+                    <label for="first">This is my first 14er </label>
+                </p>
+                <p>
+                    Anything we should know?
+                    <textarea name="info" id="info" rows="3"></textarea>
+                </p>
+                <button>Sign Up!</button>
+            </fieldset>
+        </form>
+    </div>
+    <footer style="background-color: lightgray; text-align: center;">
+        <p>Copyright <span>&copy; The Hiking Company</span> 2023</p>
+        <p>
+            <a href="#about">About Us </a>
+            <a href="#policy">Privacy Policy </a>
+            <a href="#contact">Contact Us </a>
+        </p>
+    </footer>
+</body>
+
+</html>
